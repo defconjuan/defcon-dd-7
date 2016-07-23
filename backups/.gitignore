@@ -1,0 +1,7 @@
+*
+*/
+!.gitignore
+!.htaccess
+!README.md
+!drupal-7.50.tar.gz
+
