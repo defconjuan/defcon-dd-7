@@ -50,7 +50,7 @@ php:
   extends:
     file: host.yml
     service: php
-  image: defconjuan/docker-php-5.4:latest
+  image: defconjuan/docker-php-5.6:latest
   hostname: php
 #  volumes:
 #    - ~/.ssh:/home/container/.ssh
@@ -64,8 +64,8 @@ php:
     - DRUPAL_VERSION=7
     - VHOST_PROJECT_NAME=REPLACEME
     - VHOST_SERVICE_NAME=php
-    - VHOST_VERSION_FILE_URL=https://raw.githubusercontent.com/defconjuan/docker-php-5.4/master/VERSION.md
-    - VHOST_REPOSITORY_URL=https://hub.docker.com/r/defconjuan/docker-php-5.4/
+    - VHOST_VERSION_FILE_URL=https://raw.githubusercontent.com/defconjuan/docker-php-5.6/master/VERSION.md
+    - VHOST_REPOSITORY_URL=https://hub.docker.com/r/defconjuan/docker-php-5.6/
 mailcatcher:
   extends:
     file: host.yml
